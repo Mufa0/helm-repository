@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  nav-quarkus:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-05T14:14:58.3117121+02:00"
+    dependencies:
+    - name: nav-quarkus-auth
+      repository: https://mufa0.github.io/helm-repository
+      version: 0.1.x
+    description: Helm chart for Kubernetes
+    digest: d2cb85b6fc980682d89b7f00d264ce3cb387771d8a08a960421037fa118ca45b
+    name: nav-quarkus
+    type: application
+    urls:
+    - nav-quarkus-0.1.0.tgz
+    version: 0.1.0
   nav-quarkus-audit:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-05-05T14:00:55.9043253+02:00"
+    created: "2021-05-05T14:14:58.3117121+02:00"
     description: A Helm chart for Kubernetes
     digest: 032c9021b7796b0013500a0d946a97fabdc5e9c2e9bf5e80b55da9823a7ae659
     name: nav-quarkus-audit
@@ -14,7 +29,7 @@ entries:
   nav-quarkus-auth:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-05-05T14:00:55.9052995+02:00"
+    created: "2021-05-05T14:14:58.3127113+02:00"
     dependencies:
     - name: nav-quarkus-audit
       repository: https://mufa0.github.io/helm-repository
@@ -26,4 +41,4 @@ entries:
     urls:
     - nav-quarkus-auth-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-05T14:00:55.9033002+02:00"
+generated: "2021-05-05T14:14:58.3097341+02:00"
